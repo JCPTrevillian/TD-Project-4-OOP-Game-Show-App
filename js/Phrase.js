@@ -32,8 +32,7 @@ class Phrase {
     }
 
     //filters incorrect letters and removes a heart/life - matches correct letters 
-     //@param {string} char 
-    
+     
     checkLetter(char){
         if(this.phrase.includes(char)){
             this.showMatchedLetter(char);
@@ -43,7 +42,6 @@ class Phrase {
     }
 
     //displays/hides letters in game board
-     //@param {string} char 
      
     showMatchedLetter(char){
         const list = document.querySelector('#phrase ul').children;
