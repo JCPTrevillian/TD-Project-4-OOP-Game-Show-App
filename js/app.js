@@ -3,9 +3,9 @@
  * app.js */
 
 //game setup 
-const game = new Game();
-const startButton = document.querySelector('#btn__reset');
-const keyboard = document.getElementById('qwerty');
+let game = new Game();
+let startButton = document.querySelector('#btn__reset');
+let keyboard = document.getElementById('qwerty');
 
 // event listener initiates game initialization 
 startButton.addEventListener('click', e => {
