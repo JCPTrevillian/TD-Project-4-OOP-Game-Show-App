@@ -88,11 +88,11 @@ gameOver(state){
 
     //overlay win/lose
     if(state){
-        gameOverMessage.textContent = 'You won!';
-        overlay.className = 'won';
+        gameOverMessage.textContent = 'You win!';
+        overlay.className = 'win';
     } else {
-        gameOverMessage.textContent = 'You lost!';
-        overlay.className = 'lost';
+        gameOverMessage.textContent = 'You lose!';
+        overlay.className = 'lose';
     }
 
     // reset keyboard 
