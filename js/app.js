@@ -3,6 +3,7 @@
  * app.js */
 
 //game setup 
+let game = new Game;
 let startButton = document.querySelector('#btn__reset');
 let keyboard = document.getElementById('qwerty');
 
